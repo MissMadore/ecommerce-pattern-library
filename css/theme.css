@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #1F578A;
+  /* --color-secondary: #1F578A; */
+  /* --color-primary-light: ; */
+  --color-neutral: #969696;
+  --color-accent: #cc5c28;
+
+  --font-primary: "abril-text", serif;
+
+}
+
+html {
+  font-family: var(--font-primary);
+}
