@@ -1,6 +1,6 @@
 :root {
   --color-primary: #1F578A;
-  /* --color-secondary: #1F578A; */
+  --color-secondary: #555555;
   /* --color-primary-light: ; */
   --color-neutral: #969696;
   --color-accent: #cc5c28;
@@ -11,4 +11,159 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+
+/* typography................................................................... */
+
+p {
+  color: var(--color-primary);
+}
+
+/* headings................................ */
+
+h1 {
+  font-weight: 800;
+  color: var(--color-primary);
+
+}
+
+h2 {
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+h3 {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+h4 {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+h5 {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+h6 {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+/* lists................................ */
+
+ul {
+  font-weight: normal;
+  color: var(--color-primary);
+}
+
+ol {
+  font-weight: normal;
+  color: var(--color-primary);
+}
+
+dl {
+  font-weight: normal;
+  color: var(--color-primary);
+}
+
+dd {
+  font-weight: normal;
+  color: var(--color-secondary);
+}
+
+/* links................................ */
+
+a {
+  font-weight: bold;
+  background-image: linear-gradient(90deg, var(--color-accent), var(--color-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration-color: var(--color-primary);
+}
+
+a:hover {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+}
+
+/* blockquotes................................ */
+
+blockquote {
+  color: var(--color-primary);
+}
+
+cite {
+  font-weight: 500;
+  background-image: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* emphasis & edits................................ */
+
+em {
+  color: var(--color-primary);
+}
+
+strong {
+  color: var(--color-primary);
+}
+
+del {
+  color: var(--color-primary);
+  text-decoration-color: var(--color-accent);
+}
+
+ins {
+  color: var(--color-primary);
+  text-decoration-color: var(--color-accent);
+}
+
+abbr {
+  color: var(--color-secondary);
+}
+
+dfn {
+  font-weight: 500;
+  background-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+i {
+  color: var(--color-primary);
+  text-decoration-color: var(--color-accent);
+}
+
+b {
+  color: var(--color-primary);
+}
+
+mark {
+  color: #fff;
+  padding: 0 .25rem;
+  background-image: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  background-clip: padding-box;
+  border-radius: 1px;
+}
+
+q {
+  font-weight: 500;
+  background-image: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+s {
+  color: var(--color-primary);
+  text-decoration-color: var(--color-accent);
+}
+
+u {
+  color: var(--color-primary);
+  text-decoration-color: var(--color-accent);
 }

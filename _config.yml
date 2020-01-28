@@ -1,4 +1,16 @@
 permalink: pretty
 theme: jekyll_patternbot
 patternbot:
+  title: "Tits & Silence"
+  description: |
+    A purveyor of locally painted life-drawing works and blog that supports the Ottawa Arts. The blog herein describes the unique and eclectic experience of participating in Ottawa's Life Drawing Community.
   font_url: "https://use.typekit.net/ogo6ava.css"
+  rationales:
+    typefaces.primary: |
+      Abril text was selected because of its versatility in a variety of font weights. It is used in both the headings and body copy, and translates the fun and elegant aesthetic that the site aims to acheive.
+    colors.primary: |
+      The primary colour is a mellow dark blue, it is to be used on the vast majority of the text content.
+    colors.secondary: |
+      The secondary colour is a dark grey, meant for use on lower-impact elements of the site such as abbr and dd tags.
+    colors.accent: |
+      The accent color is a bright orange meant to be used in linear gradient elements in order to match the logo, as well as most text-decorations.
