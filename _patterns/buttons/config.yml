@@ -42,3 +42,19 @@ patterns:
       - name: aria
         type: string
         example: "This button does button things"
+  nav:
+    title: "Nav Button"
+    description: This button is used for the main nav links.
+    fields:
+      - name: text
+        type: string
+        example: "Artists"
+      - name: url
+        type: string
+        example: "#"
+      - name: icon
+        type: string
+        example: paint-brush-solid
+      - name: aria
+        type: string
+        example: "This button does nav things"

@@ -7,25 +7,53 @@ patterns:
     title: "Basic Card"
     description: This card is used for most cases used across the site. It should include a heading, some text, and a button.
     fields:
+      - name: title
+        type: string
+        example: "Hey! It's a card title"
       - name: text
         type: string
-        example: "Basic! Shop now"
-      - name: url
-        type: string
-        example: "#"
+        example: "Blah blah blah here's some content"
       - name: aria
         type: string
-        example: "This button does button things"
-    artwork:
-      title: "Artwork Card"
-      description: This card is used to show an overview of artwork details.
-      fields:
-        - name: text
-          type: string
-          example: "Basic! Shop now"
-        - name: url
-          type: string
-          example: "#"
-        - name: aria
-          type: string
-          example: "This button does button things"
+        example: "This is a basic card"
+  artwork:
+    title: "Artwork Card"
+    description: This card is used to show an overview of artwork details.
+    fields:
+      - name: img
+        type: string
+        example: "/images/artwork-1.jpg"
+      - name: title
+        type: string
+        example: "Man in Profile, 30 minute"
+      - name: artist
+        type: string
+        example: "Sabrina Madore"
+      - name: cost
+        type: num
+        example: 55
+      - name: media
+        type: string
+        example: "Watercolor on paper"
+      - name: measurement
+        type: string
+        example: "9″x 9″"
+      - name: aria
+        type: string
+        example: "This is an artwork card"
+  preview:
+    title: "Preview Card"
+    description: This card is used on the homepage to link to major parts of the site (Feature artworks and artists).
+    fields:
+      - name: title
+        type: string
+        example: "Title"
+      - name: img
+        type: string
+        example: "/images/artwork-1.jpg"
+      - name: card-img-title
+        type: string
+        example: "Feature Artist Name"
+      - name: aria
+        type: string
+        example: "This is a preview card"

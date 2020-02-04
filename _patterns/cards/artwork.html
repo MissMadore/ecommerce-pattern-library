@@ -1,5 +1,8 @@
 <div class="card island-2">
-  <img class="img-flex push-2" src="/images/artwork-1.jpg" alt="">
-  <h2>Man in Profile, 30 minute</h2>
-  <p>Watercolor on paper, 9" x 9", Artist <a href="#">Sabrina Madore</a></p>
+  <img class="img-flex push-2" src="{{include.img}}" alt="">
+  <h2 class="push-1-2 grey-text">{{include.title}}</h2>
+  <h3 class="push-1-2"><a href="#">{{include.artist}}</a></h3>
+  <p class="push-1-2 tera grey-text">$ {{include.cost}}</p>
+  <p class="push-1-2 tera grey-text">{{include.media}} {{include.measurement}}</p>
+
 </div>

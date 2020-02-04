@@ -20,6 +20,14 @@ p {
   color: var(--color-primary);
 }
 
+.grey-text {
+  color: var(--color-secondary);
+}
+
+.white-text {
+  color: #fff;
+}
+
 /* headings................................ */
 
 h1 {

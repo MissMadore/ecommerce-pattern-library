@@ -37,6 +37,21 @@
   -webkit-background-clip: initial;
   -webkit-text-fill-color: initial;
   background-color: var(--color-accent);
-  border: 0;
+  border: transparent;
+  color: #fff;
+}
+
+.nav-btn {
+  background-color: transparent;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.nav-btn:hover,
+.nav-btn:hover i {
+  background-image: none !important;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+  background-color: var(--color-primary);
   color: #fff;
 }
