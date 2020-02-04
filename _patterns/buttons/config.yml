@@ -1,0 +1,44 @@
+title: "Buttons"
+description:
+  Here are all the buttons for use on this site. They specify which contexts they should be used in. All buttons will have the same gradient hover and focus state.
+
+patterns:
+  basic:
+    title: "Basic Button"
+    description: This button is used for most buttons used across the site. It should be used on cards.
+    fields:
+      - name: text
+        type: string
+        example: "Basic! Shop now"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button does button things"
+  ghost:
+    title: "Ghost Button"
+    description: This button is used for buttons set on light backgrounds
+    fields:
+      - name: text
+        type: string
+        example: "Boo! Shop now"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button does button things"
+  light:
+    title: "Light Button"
+    description: This button is used for buttons set on dark backgrounds.
+    fields:
+      - name: text
+        type: string
+        example: "Flash! Shop now"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button does button things"

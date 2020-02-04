@@ -1,0 +1,31 @@
+title: "Cards"
+description:
+  Here are the different kinds of cards you will use on the site. These include product cards (that show artwork) and article cards.
+
+patterns:
+  basic:
+    title: "Basic Card"
+    description: This card is used for most cases used across the site. It should include a heading, some text, and a button.
+    fields:
+      - name: text
+        type: string
+        example: "Basic! Shop now"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "This button does button things"
+    artwork:
+      title: "Artwork Card"
+      description: This card is used to show an overview of artwork details.
+      fields:
+        - name: text
+          type: string
+          example: "Basic! Shop now"
+        - name: url
+          type: string
+          example: "#"
+        - name: aria
+          type: string
+          example: "This button does button things"
