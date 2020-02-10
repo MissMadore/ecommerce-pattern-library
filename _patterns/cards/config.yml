@@ -6,6 +6,7 @@ patterns:
   basic:
     title: "Basic Card"
     description: This card is used for most cases used across the site. It should include a heading, some text, and a button.
+    width: 95vw;
     fields:
       - name: title
         type: string
@@ -19,6 +20,7 @@ patterns:
   artwork:
     title: "Artwork Card"
     description: This card is used to show an overview of artwork details.
+    width: 15em;
     fields:
       - name: img
         type: string
@@ -44,10 +46,11 @@ patterns:
   preview:
     title: "Preview Card"
     description: This card is used on the homepage to link to major parts of the site (Feature artworks and artists).
+    width: 95vw;
     fields:
       - name: title
         type: string
-        example: "Title"
+        example: "Featured Artist"
       - name: img
         type: string
         example: "/images/artwork-1.jpg"

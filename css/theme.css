@@ -1,7 +1,7 @@
 :root {
   --color-primary: #1F578A;
   --color-secondary: #555555;
-  /* --color-primary-light: ; */
+  --color-primary-light: #ccc;
   --color-neutral: #969696;
   --color-accent: #cc5c28;
 
@@ -142,10 +142,10 @@ dfn {
   -webkit-text-fill-color: transparent;
 }
 
-i {
+/* i {
   color: var(--color-primary);
   text-decoration-color: var(--color-accent);
-}
+} */
 
 b {
   color: var(--color-primary);

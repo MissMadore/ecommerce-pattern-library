@@ -6,6 +6,7 @@ patterns:
   basic:
     title: "Basic Button"
     description: This button is used for most buttons used across the site. It should be used on cards.
+    width: "12em"
     fields:
       - name: text
         type: string
@@ -19,10 +20,11 @@ patterns:
   ghost:
     title: "Ghost Button"
     description: This button is used for buttons set on light backgrounds
+    background: "--color-primary-light"
     fields:
       - name: text
         type: string
-        example: "Boo! Shop now"
+        example: "Boo! I'm a ghost"
       - name: url
         type: string
         example: "#"
@@ -32,6 +34,7 @@ patterns:
   light:
     title: "Light Button"
     description: This button is used for buttons set on dark backgrounds.
+    background: "--color-neutral"
     fields:
       - name: text
         type: string

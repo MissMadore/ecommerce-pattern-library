@@ -1,0 +1,64 @@
+title: "Forms"
+description:
+  Here are all the form fields for use on this site. They specify which contexts they should be used in. All form fields will have error messages specific to their functions.
+
+patterns:
+  basic:
+    title: "Basic Text Input"
+    description: This is a text input, it is to be used for names, and other simple string inputs.
+    width: "25em"
+    fields:
+      - name: field_label
+        type: string
+        example: "Name"
+      - name: field_id
+        type: string
+        example: "Name"
+      - name: field_type
+        type: string
+        example: "text"
+      # - name: aria
+      #   type: string
+      #   example: "This button does button things"
+  checkbox:
+    title: "Basic Checkbox"
+    description: This is a checkbox, it is to be used for terms, and other simple selection.
+    width: "25em"
+    fields:
+      - name: field_label
+        type: string
+        example: "Do you agree to the our terms and conditions?"
+      - name: field_id
+        type: string
+        example: "terms"
+      - name: field_type
+        type: string
+        example: "checkbox"
+  email:
+    title: "Email Input"
+    description: This is an email input, it is to be used for... emails.
+    width: "25em"
+    fields:
+      - name: field_label
+        type: string
+        example: "Email"
+      - name: field_id
+        type: string
+        example: "email"
+      - name: field_type
+        type: string
+        example: "email"
+  optional:
+    title: "Optional Text Input"
+    description: This is an optional text input, it is to be used for text inputs that are.. optional.
+    width: "25em"
+    fields:
+      - name: field_label
+        type: string
+        example: "Optional"
+      - name: field_id
+        type: string
+        example: "Address line 2"
+      - name: field_type
+        type: string
+        example: "address"
