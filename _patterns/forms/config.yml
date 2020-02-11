@@ -55,10 +55,30 @@ patterns:
     fields:
       - name: field_label
         type: string
-        example: "Optional"
+        example: "Optional thing"
       - name: field_id
         type: string
         example: "Address line 2"
       - name: field_type
         type: string
         example: "address"
+  invalid:
+    title: "Invalid [Email] Input"
+    description: This is an invalid text input, it is to be used for inputs that are invalid upon submission.
+    width: "30em"
+    fields:
+      - name: field_label
+        type: string
+        example: "Email"
+      - name: field_id
+        type: string
+        example: "Email"
+      - name: field_type
+        type: string
+        example: "email"
+      - name: error_id
+        type: string
+        example: "email"
+      - name: error_message
+        type: string
+        example: "Please input a properly formatted email (example: me@here.ca)"
