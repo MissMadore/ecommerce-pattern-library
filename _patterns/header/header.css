@@ -1,0 +1,29 @@
+#logo {
+  padding: 0 15%;
+}
+
+.nav-container {
+  text-align: center;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .nav-container {
+    text-align: right;
+  }
+
+  .logo-container {
+    text-align: right;
+  }
+
+  #logo {
+    width: 100%;
+    padding: 0 0 0 1em;
+  }
+
+}

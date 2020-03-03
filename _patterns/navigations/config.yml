@@ -31,11 +31,11 @@ patterns:
       - name: nav_forward_label
         type: string
         example: Next page
-  order:
-    title: "Order Form Navigation"
-    descrption: This navigation will be a sticky nav that allows users to navigate between different section of the order screen as they scroll through the page contents.
-    width: "30em"
-    fields:
-      - name:
-        type:
-        example:
+  # order:
+  #   title: "Order Form Navigation"
+  #   descrption: This navigation will be a sticky nav that allows users to navigate between different section of the order screen as they scroll through the page contents.
+  #   width: "30em"
+  #   fields:
+  #     - name:
+  #       type:
+  #       example:

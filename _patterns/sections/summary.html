@@ -1,26 +1,34 @@
 <table>
   <thead>
     <tr>
-      <td scope="col" class="summary-title">Order Summary</td>
+      <th>Item</th>
+      <th>Quantity</th>
+      <th>Cost</th>
+      <th>&nbsp</th>
+      <th>&nbsp</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="first-row">
+      <td class="">{{include.item}}</td>
+      <td class="">{{include.quantity}}</td>
+      <td class="">${{include.cost}}</td>
+      <td class=""><a class="btn milli" href="#">Edit</a></td>
+      <td class=""><a class="btn btn-light milli" href="#">Remove</a></td>
+    </tr>
+    <tr class="last-row">
       <td>{{include.item}}</td>
       <td>{{include.quantity}}</td>
-      <td>{{include.cost}}</td>
-      <td></td>
-      <td></td>
+      <td>${{include.cost}}</td>
+      <td><a class="btn milli" href="#">Edit</a></td>
+      <td><a class="btn btn-light milli" href="#">Remove</a></td>
     </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-
   </tbody>
   <tfoot>
-
+      <tr>
+        <td class="bold">Total</td>
+        <td>&nbsp</td>
+        <td>${{include.total_cost}}</td>
+      </tr>
   </tfoot>
 </table>

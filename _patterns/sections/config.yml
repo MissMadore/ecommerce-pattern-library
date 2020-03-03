@@ -12,8 +12,11 @@ patterns:
         type: string
         example: "Artwork #1"
       - name: quantity
-        type: string
-        example: "chevron-circle-left-solid"
+        type: number
+        example: 1
       - name: cost
-        type: string
-        example: Previous page
+        type: number
+        example: 45
+      - name: total_cost
+        type: number
+        example: 90

@@ -1,0 +1,27 @@
+table {
+  color: var(--color-primary);
+}
+
+table td {
+  border: none;
+}
+
+thead {
+  border-color: var(--color-primary);
+}
+
+tfoot {
+  border-top: 1px solid var(--color-primary);
+}
+
+th {
+  border-color: var(--color-primary);
+}
+
+.first-row td {
+  padding-top: .75em;
+}
+
+.last-row td {
+  padding-bottom: .5em;
+}
