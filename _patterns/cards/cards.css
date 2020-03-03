@@ -17,3 +17,10 @@
 h3 {
   color: var(--color-secondary);
 }
+
+.img-fit {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 20rem;
+}

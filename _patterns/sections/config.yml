@@ -1,0 +1,19 @@
+title: "Sections"
+description:
+  Here is the section format for use on the order summary card.
+
+patterns:
+  summary:
+    title: "Order Summary"
+    description: This is how the information for the Order Summary Card should be arranged.
+    width: "90vw"
+    fields:
+      - name: item
+        type: string
+        example: "Artwork #1"
+      - name: quantity
+        type: string
+        example: "chevron-circle-left-solid"
+      - name: cost
+        type: string
+        example: Previous page

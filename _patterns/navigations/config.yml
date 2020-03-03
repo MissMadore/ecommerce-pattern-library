@@ -1,0 +1,41 @@
+title: "Navigations"
+description:
+  Here are all the different kinds of navigatons for use on this site. They specify which contexts they should be used in.
+
+patterns:
+  previous:
+    title: "Previous Navigation"
+    description: This button is used for most previous page navigation used across the site. It should be used at the top left corner of product detail sections.
+    width: "30em"
+    fields:
+      - name: nav_back_url
+        type: string
+        example: "#"
+      - name: nav_back_icon
+        type: string
+        example: "chevron-circle-left-solid"
+      - name: nav_back_label
+        type: string
+        example: Previous page
+  next:
+    title: "Next Navigation"
+    description: This button is used for most next page navigation used across the site. It should be used at the top right corner of product detail sections.
+    width: "30em"
+    fields:
+      - name: nav_forward_url
+        type: string
+        example: "#"
+      - name: nav_forward_icon
+        type: string
+        example: "chevron-circle-right-solid"
+      - name: nav_forward_label
+        type: string
+        example: Next page
+  order:
+    title: "Order Form Navigation"
+    descrption: This navigation will be a sticky nav that allows users to navigate between different section of the order screen as they scroll through the page contents.
+    width: "30em"
+    fields:
+      - name:
+        type:
+        example:
