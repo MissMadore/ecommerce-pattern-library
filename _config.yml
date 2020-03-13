@@ -14,3 +14,6 @@ patternbot:
       The secondary colour is a dark grey, meant for use on lower-impact elements of the site such as abbr and dd tags.
     colors.accent: |
       The accent color is a bright orange meant to be used in linear gradient elements in order to match the logo, as well as most text-decorations.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.

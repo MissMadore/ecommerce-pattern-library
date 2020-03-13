@@ -14,9 +14,17 @@ patterns:
       - name: text
         type: string
         example: "Blah blah blah here's some content"
+        # required: false
       - name: aria
         type: string
         example: "This is a basic card"
+      - name: button_text
+        type: string
+        example: "Card Button"
+      - name: button_url
+        type: url
+        example: "#"
+
   artwork:
     title: "Artwork Card"
     description: This card is used to show an overview of artwork details.

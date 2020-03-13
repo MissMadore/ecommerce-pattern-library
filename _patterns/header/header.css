@@ -14,6 +14,16 @@ hr {
   border-top: 2px solid var(--color-primary);
 }
 
+.current {
+  background-color: var(--color-primary);
+  border-radius: 4px;
+}
+
+.current a,
+.current i {
+  color: #fff;
+}
+
 
 @media only screen and (min-width: 60em) {
 

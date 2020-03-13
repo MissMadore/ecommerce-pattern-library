@@ -12,11 +12,8 @@ patterns:
         type: string
         example: "Basic! Shop now"
       - name: url
-        type: string
-        example: "#"
-      - name: aria
-        type: string
-        example: "This button does button things"
+        type: url
+        example: "/products/"
   ghost:
     title: "Ghost Button"
     description: This button is used for buttons set on light backgrounds
@@ -26,11 +23,8 @@ patterns:
         type: string
         example: "Boo! I'm a ghost"
       - name: url
-        type: string
-        example: "#"
-      - name: aria
-        type: string
-        example: "This button does button things"
+        type: url
+        example: "/products/"
   light:
     title: "Light Button"
     description: This button is used for buttons set on dark backgrounds.
@@ -40,11 +34,8 @@ patterns:
         type: string
         example: "Flash! Shop now"
       - name: url
-        type: string
-        example: "#"
-      - name: aria
-        type: string
-        example: "This button does button things"
+        type: url
+        example: "/products/"
   nav:
     title: "Nav Button"
     description: This button is used for the main nav links.
@@ -53,11 +44,8 @@ patterns:
         type: string
         example: "Artists"
       - name: url
-        type: string
-        example: "#"
+        type: url
+        example: "/products/"
       - name: icon
         type: string
         example: paint-brush-solid
-      - name: aria
-        type: string
-        example: "This button does nav things"
