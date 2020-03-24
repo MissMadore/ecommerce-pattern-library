@@ -1,8 +1,12 @@
-<div class="card island">
-  <img class="img-flex push-1-2" src="{{include.img}}" alt="">
-  <h2 class="push-0 milli grey-text">{{include.title}}</h2>
-  <h3 class="push-1-2 micro"><a href="#">{{include.artist}}</a></h3>
-  <p class="push-1-4 micro grey-text">$ {{include.cost}}</p>
-  <p class="push-1-4 micro grey-text">{{include.media}}, &nbsp {{include.measurement}}</p>
-
+<div class="card gutter pad-t pad-b-2">
+  <div class="card-artwork push-1-2">
+    <img class="img-flex artwork-img-fit" src="{{include.data.image}}" alt="">
+  </div>
+  <h2 class="push-1-4 milli">{{include.data.title}}</h2>
+  <h3 class="push-1-2 nano"><a href="#">{{include.data.artist}}</a></h3>
+  <p class="push-1-4 nano grey-text">$ {{include.data.cost}}</p>
+  <p class="push nano grey-text">{{include.data.media}}, &nbsp {{include.data.measurement}}</p>
+  <div class="micro">
+    {%  pattern buttons/ghost text="Details" url=include.data.url %}
+  </div>
 </div>

@@ -8,3 +8,11 @@ highlight_nav: products
   button_url="#" title="Give the Gift of Nudes"
   text="<b>Welcome to our Artworks Catalogue!</b><br>Herein you will find a selection of works by local life-drawing artists. Let's be real, everyone deserves to get a tasteful nude from time to time, so treat yourself! Want to check out your favourite artists? Find them in the Artist directory!"
   aria="This is the product page banner" %}
+
+<div class="grid gutter-1-4">
+  {% for product in site.products %}
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-3 xl-1-4] island-1-2">
+    {% pattern cards/artwork data=product %}
+  </div>
+  {% endfor %}
+</div>

@@ -30,6 +30,11 @@ patterns:
     description: This card is used to show an overview of artwork details.
     width: 15em;
     fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
       - name: img
         type: string
         example: "/images/artwork-1.jpg"
