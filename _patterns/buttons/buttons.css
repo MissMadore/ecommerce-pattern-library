@@ -32,6 +32,10 @@
   background-color: inherit;
 }
 
+.btn-ghost:hover {
+  border: 1px solid #fff;
+}
+
 .btn-light {
   background-image: none !important;
   -webkit-background-clip: initial;
