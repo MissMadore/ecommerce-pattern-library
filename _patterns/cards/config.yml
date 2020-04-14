@@ -28,7 +28,7 @@ patterns:
   artwork:
     title: "Artwork Card"
     description: This card is used to show an overview of artwork details.
-    width: 15em;
+    width: 20em;
     fields:
       - name: data
         type: object
@@ -56,6 +56,7 @@ patterns:
       - name: aria
         type: string
         example: "This is an artwork card"
+
   preview:
     title: "Preview Card"
     description: This card is used on the homepage to link to major parts of the site (Feature artworks and artists).
@@ -73,10 +74,15 @@ patterns:
       - name: aria
         type: string
         example: "This is a preview card"
+      - name: button_text
+        type: string
+        example: "Preview Button"
+
+
   artwork-only:
     title: "Artwork Only Card"
     description: This card is used on the product details page to display artwork.
-    width: 95vw;
+    width: 65vw;
     fields:
       - name: data
         type: object
@@ -89,6 +95,7 @@ patterns:
       - name: aria
         type: string
         example: "This is an artwork-only card"
+
   product-description:
     title: "Product Description Card"
     description: This card is used on the product details page to display artwork.
@@ -119,4 +126,43 @@ patterns:
         example: "9″x 9″"
       - name: aria
         type: string
-        example: "This is an artwork card"
+        example: "This is a product description card"
+
+  checkout-summary:
+    title: "Checkout Summary Card"
+    description: This card is used exclusively as the beginning section of the checkout page. It displays a ″summary″ of users' orders
+    width: 95vw;
+    fields:
+      - name: title
+        type: string
+        example: "Order Summary"
+      - name: aria
+        type: string
+        example: "This is a checkout summary card"
+
+  checkout-delivery:
+    title: "Checkout Delivery Card"
+    description: This card is used exclusively as the second section of the checkout page. It contains a form for users' delivery information
+    width: 95vw;
+    fields:
+      - name: title
+        type: string
+        example: "Delivery"
+      - name: aria
+        type: string
+        example: "This is a checkout delivery information card"
+
+  checkout-payment:
+    title: "Checkout Payment Card"
+    description: This card is used exclusively as the third and final section of the checkout page. It contains a form for users' payment information
+    width: 95vw;
+    fields:
+      - name: title
+        type: string
+        example: "Payment"
+      - name: aria
+        type: string
+        example: "This is a checkout payment information card"
+      - name: button_text
+        type: string
+        example: "Complete Purchase"

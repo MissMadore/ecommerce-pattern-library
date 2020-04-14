@@ -8,15 +8,24 @@ patterns:
     description: This is how the information for the Order Summary Card should be arranged.
     width: "90vw"
     fields:
-      - name: item
+      - name: item_1
         type: string
-        example: "Artwork #1"
-      - name: quantity
+        example: "Alya, 20 minute"
+      - name: quantity_1
         type: number
         example: 1
-      - name: cost
+      - name: cost_1
         type: number
-        example: 45
+        example: 65
+      - name: item_2
+        type: string
+        example: "Resting On My Yannies"
+      - name: quantity_2
+        type: number
+        example: 1
+      - name: cost_2
+        type: number
+        example: 69
       - name: total_cost
         type: number
-        example: 90
+        example: 134

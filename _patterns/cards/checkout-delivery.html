@@ -1,0 +1,25 @@
+<div class="island-1-2">
+  <div class="card island" aria-label="{{include.aria}}">
+    <h2 class="exa push">{{include.title}}</h2>
+    <div class="push-0 grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4 push-1-2">
+        {% pattern forms/basic field_label="Full Name" field_id="FullName" field_type="text" %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4 push-1-2">
+        {% pattern forms/email field_label="Email" field_id="email" field_type="email" %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4 push-1-2">
+        {% pattern forms/basic field_label="Address Line 1" field_id="Address1" field_type="text" %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4 push-1-2">
+        {% pattern forms/basic field_label="Address Line 2" field_id="Address2" field_type="text" %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4 push-1-2">
+        {% pattern forms/basic field_label="Province" field_id="Province" field_type="text" %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4 push-1-2">
+        {% pattern forms/basic field_label="Postal Code" field_id="PostCode" field_type="text" %}
+      </div>
+    </div>
+  </div>
+</div>
