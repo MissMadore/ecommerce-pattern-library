@@ -5,7 +5,9 @@
     <hr class="push">
     <p class="milli push-1-2">{{include.data.description}}</p>
     <p class="micro push">{{include.data.media}}, &nbsp {{include.data.measurement}}</p>
-    <p class="push mega bold">$ {{include.data.cost}}</p>
-
+    <p class="push pad-b-1-2 giga bold">$ {{include.data.cost}}</p>
+    <div class="micro">
+      {% pattern buttons/ghost text="Add to Card" url="/products/" %}
+    </div>
   </div>
 </div>
