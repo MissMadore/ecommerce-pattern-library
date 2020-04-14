@@ -73,3 +73,14 @@ patterns:
       - name: aria
         type: string
         example: "This is a preview card"
+  artwork-only:
+    title: "Artwork Only Card"
+    description: This card is used on the product details page to display artwork.
+    width: 95vw;
+    fields:
+      - name: image
+        type: string
+        example: "/images/artwork-1.jpg"
+      - name: aria
+        type: string
+        example: "This is an artwork-only card"
