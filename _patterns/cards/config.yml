@@ -78,9 +78,45 @@ patterns:
     description: This card is used on the product details page to display artwork.
     width: 95vw;
     fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
       - name: image
         type: string
         example: "/images/artwork-1.jpg"
       - name: aria
         type: string
         example: "This is an artwork-only card"
+  product-description:
+    title: "Product Description Card"
+    description: This card is used on the product details page to display artwork.
+    width: 95vw;
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+      - name: image
+        type: string
+        example: "/images/artwork-1.jpg"
+      - name: title
+        type: string
+        example: "Man in Profile, 30 minute"
+      - name: artist
+        type: string
+        example: "Sabrina Madore"
+      - name: cost
+        type: num
+        example: 55
+      - name: media
+        type: string
+        example: "Watercolor on paper"
+      - name: measurement
+        type: string
+        example: "9″x 9″"
+      - name: aria
+        type: string
+        example: "This is an artwork card"

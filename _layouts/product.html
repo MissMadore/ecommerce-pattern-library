@@ -2,14 +2,21 @@
 layout: default
 highlight_nav: products
 ---
-<div class="grid">
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-    {% pattern cards/artwork-only
-      image={{page.image}}
-      aria="This is an artwork-only card" %}
-  </div>
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-    <h1>{{page.title}}</h1>
-    <p>{{page.description}}</p>
+
+<div class="gutter">
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 l-3-4 xl-3-4">
+      {% pattern cards/artwork-only data=page %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-4 xl-1-4">
+      {% pattern cards/product-description data=page
+        image="/images/artwork-1.jpg"
+        title="Man in Profile, 30 minute"
+        artist="Sabrina Madore"
+        cost=55
+        media="Watercolor on paper"
+        measurement="9″x 9″"
+        aria="This is an artwork card" %}
+    </div>
   </div>
 </div>
