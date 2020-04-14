@@ -25,3 +25,13 @@ th {
 .last-row td {
   padding-bottom: .5em;
 }
+
+.sale-banner-wrap {
+  background-image: linear-gradient(315deg, var(--color-accent), var(--color-primary));
+  padding: .2em;
+}
+
+.sale-banner-content {
+  background-color: #fff;
+  padding: 1em;
+}

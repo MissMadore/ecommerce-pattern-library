@@ -77,6 +77,9 @@ patterns:
       - name: button_text
         type: string
         example: "Preview Button"
+      - name: button_url
+        type: string
+        example: /products/
 
 
   artwork-only:

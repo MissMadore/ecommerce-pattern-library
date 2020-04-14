@@ -29,3 +29,72 @@ patterns:
       - name: total_cost
         type: number
         example: 134
+
+  all-purpose-table:
+    title: "All Purpose Table"
+    description: This is for displaying totally unanticipated table information.
+    width: "90vw"
+    fields:
+      - name: tr_1
+        type: string
+        example: "Title"
+      - name: tr_2
+        type: string
+        example: "Title"
+      - name: tr_3
+        type: string
+        example: "Title"
+      - name: item_1_1
+        type: string
+        example: "Data"
+      - name: item_1_2
+        type: string
+        example: "Data"
+      - name: item_1_3
+        type: string
+        example: "Data"
+      - name: item_2_1
+        type: string
+        example: "Data"
+      - name: item_2_2
+        type: string
+        example: "Data"
+      - name: item_2_3
+        type: string
+        example: "Data"
+      - name: item_3_1
+        type: string
+        example: "Data"
+      - name: item_3_2
+        type: string
+        example: "Data"
+      - name: item_3_3
+        type: string
+        example: "Data"
+      - name: item_4_1
+        type: string
+        example: "Data"
+      - name: item_4_2
+        type: string
+        example: "Data"
+      - name: item_4_3
+        type: string
+        example: "Data"
+      - name: item_5_1
+        type: string
+        example: "Data"
+      - name: item_5_2
+        type: string
+        example: "Data"
+      - name: item_5_3
+        type: string
+        example: "Data"
+
+  sale-banner:
+    title: "Sale Banner"
+    description: This is an all-purpose banner for sale related content.
+    width: "90vw"
+    fields:
+      - name: text
+        type: string
+        example: "Check out our Sales!"
