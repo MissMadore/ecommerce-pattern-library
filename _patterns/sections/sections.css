@@ -29,9 +29,12 @@ th {
 .sale-banner-wrap {
   background-image: linear-gradient(315deg, var(--color-accent), var(--color-primary));
   padding: .2em;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px #aaa;
 }
 
 .sale-banner-content {
   background-color: #fff;
   padding: 1em;
+  border-radius: 2px;
 }
