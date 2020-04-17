@@ -2,72 +2,74 @@
 layout: default
 ---
 
-<div class="island-1-2">
-  {% pattern sections/sale-banner text="When you buy more, you save more!" %}
-</div>
-<div>
-  {% pattern cards/basic
-    title="These nudes may be inexpensive, but they're anything but cheap!"
-    text="Here at Tits & Silence, we love to spread the love! Purchase a nude or two for yourself, and a handful for your friends, maybe a few for your neighbours.
-    Go wild, send a few back home to the fam! We offer great discounts on large purcases, so go big or go home! <br><br> <b>Check out our works by a variety of artists by following the link below<b>"
-    aria="This is a promotional information card"
-    button_text="See Artworks"
-    button_url="/products/" %}
-</div>
-<div class="grid gutter-1-4">
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4">
-    {% pattern cards/preview
-      title="Featured Today: Laurie"
-      img="/images/brad-4.jpg"
-      card-img-title="Buy Now!"
-      aria="This is a promotional card with featured artwork"
-      button_text="See Artwork Details"
-      button_url="/products/brad-4/" %}
+<main id="main">
+  <div class="island-1-2">
+    {% pattern sections/sale-banner text="When you buy more, you save more!" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4">
-    {% pattern cards/preview
-      title="Highlight: We're Listening"
-      img="/images/shawn-6.jpg"
-      card-img-title="Buy Now!"
-      aria="This is a promotional card with featured artwork"
-      button_text="See Artwork Details"
-      button_url="/products/shawn-6/" %}
+  <div>
+    {% pattern cards/basic
+      title="These nudes may be inexpensive, but they're anything but cheap!"
+      text="Here at Tits & Silence, we love to spread the love! Purchase a nude or two for yourself, and a handful for your friends, maybe a few for your neighbours.
+      Go wild, send a few back home to the fam! We offer great discounts on large purcases, so go big or go home! <br><br> <b>Check out our works by a variety of artists by following the link below<b>"
+      aria="This is a promotional information card"
+      button_text="See Artworks"
+      button_url="/products/" %}
   </div>
-</div>
-<div class="island-1-2">
-  <div class="card island-2">
-  <h1>Bulk Pricing</h1>
-    {% pattern sections/all-purpose-table
-      tr_1="Quantity"
-      tr_2="Price/Each"
-      tr_3="Discount"
-      item_1_1="1–5"
-      item_1_2="\ $69.99"
-      item_1_3="5%"
-      item_2_1="6-10"
-      item_2_2="\ $59.99"
-      item_2_3="10%"
-      item_3_1="11-15"
-      item_3_2="\ $49.99"
-      item_3_3="15%"
-      item_4_1="15-20"
-      item_4_2="\ $39.99"
-      item_4_3="20%" %}
-  </div>
-</div>
-<div class="island-1-2">
-  <div class="card island-2">
-  <h1>Sign up for our Email Newsletter!</h1>
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
-      {% pattern forms/email field_label="Email" field_id="email" field_type="email" %}
+  <div class="grid gutter-1-4">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4">
+      {% pattern cards/preview
+        title="Featured Today: Laurie"
+        img="/images/brad-4.jpg"
+        card-img-title="Buy Now!"
+        aria="This is a promotional card with featured artwork"
+        button_text="See Artwork Details"
+        button_url="/products/brad-4/" %}
     </div>
-    <div class="unit xs-1 s-1 m-1 l-1 xl-1 micro push-1-2">
-      {% pattern forms/checkbox field_label="I want to receive monthly emails" field_id="confirm" field_type="checkbox" %}
-    </div>
-    <div class="unit xs-1 s-1 m-1 l-1 xl-1 milli push-1-2">
-      {% pattern buttons/basic text="Subscribe" url="#" %}
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4">
+      {% pattern cards/preview
+        title="Highlight: We're Listening"
+        img="/images/shawn-6.jpg"
+        card-img-title="Buy Now!"
+        aria="This is a promotional card with featured artwork"
+        button_text="See Artwork Details"
+        button_url="/products/shawn-6/" %}
     </div>
   </div>
+  <div class="island-1-2">
+    <div class="card island-2">
+    <h1>Bulk Pricing</h1>
+      {% pattern sections/all-purpose-table
+        tr_1="Quantity"
+        tr_2="Price/Each"
+        tr_3="Discount"
+        item_1_1="1–5"
+        item_1_2="\ $69.99"
+        item_1_3="5%"
+        item_2_1="6-10"
+        item_2_2="\ $59.99"
+        item_2_3="10%"
+        item_3_1="11-15"
+        item_3_2="\ $49.99"
+        item_3_3="15%"
+        item_4_1="15-20"
+        item_4_2="\ $39.99"
+        item_4_3="20%" %}
+    </div>
   </div>
-</div>
+  <div class="island-1-2">
+    <div class="card island-2">
+    <h1>Sign up for our Email Newsletter!</h1>
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+        {% pattern forms/email field_label="Email" field_id="email" field_type="email" %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 micro push-1-2">
+        {% pattern forms/checkbox field_label="I want to receive monthly emails" field_id="confirm" field_type="checkbox" %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 milli push-1-2">
+        {% pattern buttons/basic text="Subscribe" url="#" %}
+      </div>
+    </div>
+    </div>
+  </div>
+</main>

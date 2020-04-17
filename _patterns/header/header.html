@@ -1,4 +1,7 @@
 <header>
+  <div class="skip-links micro">
+    <a href="#main">Jump to main content</a>
+  </div>
   <div class="grid grid-middle pad-t-1-2 pad-b-1-4">
     <div class="unit xs-1 s-1 m-1 l-1-4 xl-1-4">
       <div class="logo-container">
@@ -9,7 +12,7 @@
     </div>
     <div class="unit xs-1 s-1 m-1 l-3-4 xl-3-4 gutter-1-4">
       <div class="nav-container">
-        <nav>
+        <nav id="nav">
           <ul class="list-group-inline push-0">
             <li class="push-1-4 {% if page.highlight_nav == 'noabout' %}current{% endif %}">{% pattern buttons/nav text="About" url="/noabout/" icon="info-circle-solid" aria="This button does nav things" %}</li>
             <li class="push-1-4 {% if page.highlight_nav == 'products' %}current{% endif %}">{% pattern buttons/nav text="Artworks" url="/products/" icon="palette-solid" aria="This button does nav things" %}</li>

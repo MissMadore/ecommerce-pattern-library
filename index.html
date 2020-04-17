@@ -1,35 +1,36 @@
 ---
 layout: default
 ---
+<main id="main">
+  {% pattern cards/basic
+    button_text="Explore Artworks"
+    button_url="/products/"
+    title="Because people like Tits, but they love Silence."
+    text="<b>Welcome to Tits & Silence</b>, a site chock full of tasteful nudes by the artists of Ottawa's diverse life drawing community. Find out more about the unique experiences to be had within the Ottawa arts community, and check out our Artworks page to see what fantasmic works our community have been producing"
+    aria="This is a welcome banner" %}
 
-{% pattern cards/basic
-  button_text="Explore Artworks"
-  button_url="/products/"
-  title="Because people like Tits, but they love Silence."
-  text="<b>Welcome to Tits & Silence</b>, a site chock full of tasteful nudes by the artists of Ottawa's diverse life drawing community. Find out more about the unique experiences to be had within the Ottawa arts community, and check out our Artworks page to see what fantasmic works our community have been producing"
-  aria="This is a welcome banner" %}
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">
+      {% pattern sections/sale-banner text="Check out our Sales!" %}
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 island-1-2">
+      {% pattern cards/preview
+        title="Featured Artwork"
+        img="/images/shawn-1.jpg"
+        card-img-title="Resting On My Yannies"
+        aria="This is a feature artwork card"
+        button_text="See Feature"
+        button_url="/products/shawn-1/" %}
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 island-1-2">
+      {% pattern cards/preview
+        title="Featured Artist"
+        img="/images/mackenzie-profile.jpg"
+        card-img-title="Mackenzie <br> Bulkowski-Rose"
+        aria="This is a feature artist card"
+        button_text="See Artist"
+        button_url="/nopage/" %}
+    </div>
 
-<div class="grid">
-  <div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">
-    {% pattern sections/sale-banner text="Check out our Sales!" %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 island-1-2">
-    {% pattern cards/preview
-      title="Featured Artwork"
-      img="/images/shawn-1.jpg"
-      card-img-title="Resting On My Yannies"
-      aria="This is a feature artwork card"
-      button_text="See Feature"
-      button_url="/products/shawn-1/" %}
-  </div>
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 island-1-2">
-    {% pattern cards/preview
-      title="Featured Artist"
-      img="/images/mackenzie-profile.jpg"
-      card-img-title="Mackenzie <br> Bulkowski-Rose"
-      aria="This is a feature artist card"
-      button_text="See Artist"
-      button_url="/nopage/" %}
-  </div>
-
-</div>
+</main>
