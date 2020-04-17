@@ -5,7 +5,7 @@ description: |
 image: "/images/shawn-4.jpg"
 title: "Take it Easy"
 artist: "Shawn Philip Hunsdale"
-cost: 55
+cost: 69
 media: "Ink on toned paper"
 measurement: 	"9″x 12″"
 ---
