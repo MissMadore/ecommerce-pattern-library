@@ -11,10 +11,10 @@
       <div class="nav-container">
         <nav>
           <ul class="list-group-inline push-0">
-            <li class="push-1-4 {% if page.highlight_nav == '' %}current{% endif %}">{% pattern buttons/nav text="About" url="#" icon="info-circle-solid" aria="This button does nav things" %}</li>
+            <li class="push-1-4 {% if page.highlight_nav == 'noabout' %}current{% endif %}">{% pattern buttons/nav text="About" url="/noabout/" icon="info-circle-solid" aria="This button does nav things" %}</li>
             <li class="push-1-4 {% if page.highlight_nav == 'products' %}current{% endif %}">{% pattern buttons/nav text="Artworks" url="/products/" icon="palette-solid" aria="This button does nav things" %}</li>
-            <li class="push-1-4 {% if page.highlight_nav == '' %}current{% endif %}">{% pattern buttons/nav text="Artists" url="/nopage/" icon="paint-brush-solid" aria="This button does nav things" %}</li>
-            <li class="push-1-4 {% if page.highlight_nav == '' %}current{% endif %}">{% pattern buttons/nav text="Blog" url="#" icon="bookmark-solid" aria="This button does nav things" %}</li>
+            <li class="push-1-4 {% if page.highlight_nav == 'nopage' %}current{% endif %}">{% pattern buttons/nav text="Artists" url="/nopage/" icon="paint-brush-solid" aria="This button does nav things" %}</li>
+            <li class="push-1-4 {% if page.highlight_nav == 'noblog' %}current{% endif %}">{% pattern buttons/nav text="Blog" url="/noblog/" icon="bookmark-solid" aria="This button does nav things" %}</li>
             <li class="push-1-4 {% if page.highlight_nav == 'checkout' %}current{% endif %}">{% pattern buttons/nav text="Cart" url="/checkout/" icon="shopping-cart-solid" aria="This button does nav things" %}</li>
           </ul>
         </nav>
