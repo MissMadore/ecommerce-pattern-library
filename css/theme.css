@@ -190,3 +190,7 @@ u {
   color: var(--color-primary);
   text-decoration-color: var(--color-accent);
 }
+
+.card p {
+  max-width: 55em;
+}
