@@ -203,3 +203,7 @@ u {
 .skip-links a:focus {
   top: 0;
 }
+
+body {
+  overflow-x: hidden;
+}
